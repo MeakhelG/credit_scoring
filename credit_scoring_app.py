@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 from data_preprocessing import data_preprocessing, encoder_Credit_Mix, encoder_Payment_Behaviour, encoder_Payment_of_Min_Amount
 from prediction import prediction
 
